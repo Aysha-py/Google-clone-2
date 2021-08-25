@@ -5,8 +5,8 @@ body{
   
 }
 header{
-    background-color: aquamarine;
-    padding: 5px;
+   
+    padding: 3px;
     display: flex;
     justify-content: flex-end;
     
@@ -62,15 +62,32 @@ button{
 .lang a{
     padding: 10px;
 }
-p{
-    background-color: darkgray;
-    width:100%;
+
     
 }
 footer{
-    background-color: chartreuse;
-    width: 100%;
     display: flex;
-    position: fixed;
+}
+}
+.bottom1 a{
+    padding: 4px;
     
+}
+.bottom2 a{
+    padding: 4px;
+}
+.bottom3 a{
+    padding: 4px;
+    margin-right: 40px;
+    
+}
+footer{
+    background-color: grey;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.btm a{
+    padding: 20px;
 }
